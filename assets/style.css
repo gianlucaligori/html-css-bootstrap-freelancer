@@ -4,6 +4,8 @@
 :root {
     --nav_upfooter: rgb(44,62,80);
     --section-green: rgb(25,188,156);
+    --addresses: rgb(58,85,109);
+    --text-white: white;
     --box1: rgb(186,75,99);
     --box2: rgb(28,164,182);
     --box3: rgb(20,15,15);
@@ -20,14 +22,26 @@ nav {
     color: white;
 }
 
-.jumbo {
+
+
+.addresses {
+    color: var(--text-white);
+    background-color: var(--addresses);
+}
+
+.jumbo,
+.about {
+    color: var(--text-white);
     background-color: var(--section-green)
 }
+
+a
 
 h1,
 h3 {
     padding-top: 3rem;
 }
+
 
 .box1 {
     height: 10rem;
@@ -52,5 +66,4 @@ h3 {
 .box6 {
     height: 10rem;
     background-color: var(--box6);
-
 }
