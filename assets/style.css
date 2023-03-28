@@ -1,0 +1,56 @@
+
+/* PALETTE */
+
+:root {
+    --nav_upfooter: rgb(44,62,80);
+    --section-green: rgb(25,188,156);
+    --box1: rgb(186,75,99);
+    --box2: rgb(28,164,182);
+    --box3: rgb(20,15,15);
+    --box4: rgb(27,131,193);
+    --box5: rgb(13,56,181);
+    --box6: rgb(204,178,163);
+}
+
+nav {
+    background-color: var(--nav_upfooter);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.jumbo {
+    background-color: var(--section-green)
+}
+
+h1,
+h3 {
+    padding-top: 3rem;
+}
+
+.box1 {
+    height: 10rem;
+    background-color: var(--box1);
+}
+.box2 {
+    height: 10rem;
+    background-color: var(--box2);
+}
+.box3 {
+    height: 10rem;
+    background-color: var(--box3);
+}
+.box4 {
+    height: 10rem;
+    background-color: var(--box4);
+}
+.box5 {
+    height: 10rem;
+    background-color: var(--box5);
+}
+.box6 {
+    height: 10rem;
+    background-color: var(--box6);
+
+}
