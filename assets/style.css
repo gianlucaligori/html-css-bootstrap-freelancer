@@ -1,6 +1,4 @@
-
 /* PALETTE */
-
 :root {
     --nav_upfooter: rgb(44,62,80);
     --section-green: rgb(25,188,156);
@@ -16,18 +14,33 @@
 
 nav {
     background-color: var(--nav_upfooter);
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    color: white;
 }
-
-
-
 .addresses {
     color: var(--text-white);
     background-color: var(--addresses);
 }
+
+.copyright {
+    background-color: var(--nav_upfooter);
+}
+
+/* .star-light:before {
+    content: "" ;
+    display: inline-block;
+    height: .1rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.star-light:after {
+    content: "" ;
+    display: inline-block;
+    height: .1rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 10px;
+} */
 
 .jumbo,
 .about {
@@ -35,35 +48,23 @@ nav {
     background-color: var(--section-green)
 }
 
-a
-
 h1,
-h3 {
+h2,
+h4 {
     padding-top: 3rem;
 }
 
+#btn-submit {background-color: var(--section-green);}
 
-.box1 {
-    height: 10rem;
-    background-color: var(--box1);
+.start-bootstrap {
+    color: var(--section-green);
+    text-decoration: none;
 }
-.box2 {
-    height: 10rem;
-    background-color: var(--box2);
+
+.navbar {
+    color: white;
 }
-.box3 {
-    height: 10rem;
-    background-color: var(--box3);
-}
-.box4 {
-    height: 10rem;
-    background-color: var(--box4);
-}
-.box5 {
-    height: 10rem;
-    background-color: var(--box5);
-}
-.box6 {
-    height: 10rem;
-    background-color: var(--box6);
-}
+
+/* .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+} */
